@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    
+}
+
+/* HOME PAGE */
+
+#card-content{
+    background-image: url(./images/card-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#card-box{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+    font-family: "Orbitron", Arial;
+    font-size: 20px;
+    
+}
+
+.menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu > .menuList {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu > .menuList > .list {
+    padding: 20px;
+    cursor: pointer;
+    font-family: "Bebas Neue", sans-serif ;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #c4c4c4;
+    text-align: center;
+    cursor: pointer;
+    background-color: #00000000;
+    border: none;
+}
+
+.menu > .menuList > .list{
+    color: #e4e4e4;
+}
+
+/* ABOUT MENU */
+
+#about-content{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/card-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 100vh;
+    padding: 20px;
+    
+}
+
+.about-title{
+    align-self: start;
+    padding: 25px 0px;
+}
+
+.description{
+    background-color: rgba(48, 44, 44, 0.473);
+    border: 0px solid rgb(48, 44, 44);
+    border-radius: 10px;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.description::-webkit-scrollbar {
+    display: none;
+}
+
+.description > p {
+    text-align: justify;
+    padding: 5px 0px;
+    letter-spacing: 1.2px;
+}
+
+.btnHome{
+    background-color:rgba(48, 44, 44, 0.473);
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* WORKS */
+
+#works-content{
+    background-image: url(./images/card-background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.works-title{
+    padding: 50px 0px;
+    font-family: "Orbitron", Arial;
+    font-size: 20px;
+    
+}
+
+.photos-container{
+    min-width: 320px;
+    background-color: rgba(48, 44, 44, 0.473);
+    border: 0px solid rgb(48, 44, 44);
+    border-radius: 10px;
+    padding: 20px 20px;
+    overflow-y: scroll;
+}
+
+.photos-container::-webkit-scrollbar{
+    display: none;
+}
+
+.photos{
+    max-height: 935px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image{
+    width: 280px;
+    margin: 10px 10px;   
+}
+
+.image > a > img{
+    width: 100%;
+    border-radius: 10px;
+}
+.image > a:visited{
+    width: 100%;
+}
+
+.section-visibility{
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
+/* CONTACTS */
+
+#contacts-content{
+    min-height: 100vh;
+    max-width: 100vw;
+    background-image: url(./images/card-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contacts-box{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 20px;
+}
+
+.contacts-title{
+    font-family: "Orbitron", Arial;
+    font-size: 20px;
+    padding: 25px 0px;
+}
+
+.guide{
+    text-align: justify;
+    
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+
+.links {
+    padding: 15px;
+    text-decoration: none;
+}
+
+.icons{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.icon-image > img{
+    width: 48px;
+}
+
+.info{
+    padding: 20px;
+}
+
+.title-tutorial h2{
+    padding: 20px 0px;
+    font-family: "Orbitron", Arial;
+}
+
+.title-tutorial h3{
+    padding: 20px 0px;
+}
+
+.text-tutorial p{
+    text-align: justify;
+    padding: 10px 0px;
+}
+
+.image-tutorial{
+    padding: 10px 0px;
+}
